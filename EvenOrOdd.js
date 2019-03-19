@@ -7,6 +7,10 @@ else {
 }
 }
 
+// ternary operator
+function checkEvenOrOdd(num) {
+  return num % 2 === 0 ? "Even" : "Odd";
+}
 
 console.log(checkEvenOrOdd(9));
 console.log(checkEvenOrOdd(2));
